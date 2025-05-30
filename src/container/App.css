@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "jf-openhuninn";
+  font-style: normal;
+  font-size: normal;
+  src:
+    local("jf-openhuninn"),url("jf-openhuninn-2.1.ttf") format("ttf")
+}
+
+h1{
+  font-family: "jf-openhuninn";
+}
