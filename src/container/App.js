@@ -18,7 +18,7 @@ class App extends Component{
 
 	componentDidMount(){
 		//Grab data
-		fetch('https://weathernode-production.up.railway.app/getinfo')
+		fetch('https://weathernode.tigerden.idv.tw/getinfo')
 		.then(resp=>resp.json())
 		.then(weather => this.setState({location: weather.records.location}))
 		.catch(err => console.log("There is something wrong: ",err.message))
